@@ -1,0 +1,19 @@
+.listCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: black;
+  }
+  
+  .cardGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .listCard > div {
+    flex: 0 0 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 100%;
+  }

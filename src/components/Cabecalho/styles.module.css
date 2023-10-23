@@ -1,0 +1,30 @@
+.header{
+    padding: 50px;
+    font-size: 100px;
+    background-color:#000000;
+    color: #ff0000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho{
+    display: flex;
+    
+}
+.cabecalho h1{
+    font-size: 30px;
+}
+
+.a{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 20px;
+    display: flex;
+    gap: 30px;
+}
+
+.hover:hover{
+    color: rgb(158, 158, 15);
+}

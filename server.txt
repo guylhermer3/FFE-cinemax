@@ -1,0 +1,1 @@
+Para iniciar o servidor "json-server --port 3020 --watch database.json"
