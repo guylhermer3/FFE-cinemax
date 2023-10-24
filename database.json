@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "titulo": "Conferência Nacional de Biologia Computacional",
+      "titulo": "",
       "descricao": "A Conferência Nacional de Biologia Computacional é o encontro anual de profissionais e pesquisadores que compartilham suas descobertas e avanços no campo da biologia computacional. Junte-se a nós para uma troca de conhecimentos enriquecedora.",
       "dataInicio": "2023-11-20",
       "dataFim": "2023-11-24",
@@ -64,7 +64,7 @@
     },
     {
       "id": 8,
-      "titulo": "Curso de Introdução à Bioinformática",
+      "titulo": "",
       "descricao": "Este curso introdutório oferece uma visão abrangente dos princípios básicos da bioinformática. Ideal para iniciantes que desejam entender o papel da tecnologia da informação na biologia moderna.",
       "dataInicio": "2023-10-12",
       "dataFim": "2023-10-14",
@@ -72,7 +72,7 @@
     },
     {
       "id": 9,
-      "titulo": "Encontro de Pesquisadores em Genômica Comparativa",
+      "titulo": "",
       "descricao": "Participe deste encontro que reúne pesquisadores para discutir as últimas pesquisas e avanços em genômica comparativa. Explore as semelhanças e diferenças genéticas entre espécies.",
       "dataInicio": "2023-12-10",
       "dataFim": "2023-12-12",
@@ -80,7 +80,7 @@
     },
     {
       "id": 10,
-      "titulo": "Palestra sobre Bioinformática na Agricultura",
+      "titulo": "",
       "descricao": "Descubra como a bioinformática está sendo aplicada para otimizar a agricultura e a produção de alimentos. A palestra abordará as inovações tecnológicas que estão impulsionando a sustentabilidade no setor agrícola.",
       "dataInicio": "2023-10-05",
       "dataFim": "2023-10-05",
@@ -88,7 +88,7 @@
     },
     {
       "id": 11,
-      "titulo": "Fórum de Inovação em Biologia Computacional",
+      "titulo": "",
       "descricao": "Este fórum é um espaço para discutir as inovações mais recentes na interseção da biologia e da computação. Explore as tendências que estão moldando o futuro da pesquisa biológica.",
       "dataInicio": "2023-11-28",
       "dataFim": "2023-11-30",
@@ -96,7 +96,7 @@
     },
     {
       "id": 12,
-      "titulo": "Curso Avançado de Análise de Metagenomas",
+      "titulo": "",
       "descricao": "Participe deste curso avançado que se concentra na análise de metagenomas, explorando a diversidade e a funcionalidade das comunidades microbianas. Aprofunde seus conhecimentos em bioinformática aplicada.",
       "dataInicio": "2023-10-19",
       "dataFim": "2023-10-22",
@@ -104,7 +104,7 @@
     },
     {
         "id": 13,
-        "titulo": "Conferência Internacional de Big Data em Genômica",
+        "titulo": "",
         "descricao": "Participe desta conferência global que explora o impacto do big data na análise genômica. Descubra as estratégias para lidar com volumes massivos de dados biológicos.",
         "dataInicio": "2023-12-18",
         "dataFim": "2023-12-21",
@@ -112,7 +112,7 @@
       },
       {
         "id": 14,
-        "titulo": "Workshop de Alinhamento de Sequências",
+        "titulo": "",
         "descricao": "Aprimore suas habilidades em alinhamento de sequências neste workshop prático. Aprenda a interpretar e analisar alinhamentos para obter insights valiosos sobre a evolução e a função das sequências biológicas.",
         "dataInicio": "2023-11-05",
         "dataFim": "2023-11-07",
@@ -120,7 +120,7 @@
       },
       {
         "id": 15,
-        "titulo": "Simpósio Nacional de Redes Biológicas",
+        "titulo": "",
         "descricao": "Participe deste simpósio que se concentra na análise e modelagem de redes biológicas. Explore como os avanços em bioinformática estão ajudando a compreender a complexidade dos sistemas biológicos.",
         "dataInicio": "2023-10-08",
         "dataFim": "2023-10-10",
@@ -128,7 +128,7 @@
       },
       {
         "id": 16,
-        "titulo": "Curso de Integração de Dados Genômicos",
+        "titulo": "",
         "descricao": "Este curso oferece uma visão abrangente sobre a integração de dados genômicos de diferentes fontes. Aprenda a combinar informações genômicas para obter uma compreensão holística dos organismos.",
         "dataInicio": "2023-09-20",
         "dataFim": "2023-09-22",
@@ -136,7 +136,7 @@
       },
       {
         "id": 17,
-        "titulo": "Hackathon de Bioinformática",
+        "titulo": "",
         "descricao": "Participe deste hackathon dedicado à resolução de desafios em bioinformática. Colabore com uma equipe e aplique suas habilidades de programação e análise de dados para criar soluções inovadoras.",
         "dataInicio": "2023-11-25",
         "dataFim": "2023-11-27",
@@ -144,7 +144,7 @@
       },
       {
         "id": 18,
-        "titulo": "Palestra sobre Edição de Genes com CRISPR-Cas9",
+        "titulo": "",
         "descricao": "Explore as possibilidades da edição de genes com a tecnologia CRISPR-Cas9 nesta palestra informativa. Entenda como essa técnica está revolucionando a manipulação genética e suas aplicações na bioinformática.",
         "dataInicio": "2023-10-14",
         "dataFim": "2023-10-14",
@@ -152,7 +152,7 @@
       },
       {
         "id": 19,
-        "titulo": "Palestra sobre Edição de Genes com CRISPR-Cas9",
+        "titulo": "",
         "descricao": "Explore as possibilidades da edição de genes com a tecnologia CRISPR-Cas9 nesta palestra informativa. Entenda como essa técnica está revolucionando a manipulação genética e suas aplicações na bioinformática.",
         "dataInicio": "2023-10-14",
         "dataFim": "2023-10-14",
@@ -160,7 +160,7 @@
       },
       {
         "id": 20,
-        "titulo": "Palestra sobre Edição de Genes com CRISPR-Cas9",
+        "titulo": "",
         "descricao": "Explore as possibilidades da edição de genes com a tecnologia CRISPR-Cas9 nesta palestra informativa. Entenda como essa técnica está revolucionando a manipulação genética e suas aplicações na bioinformática.",
         "dataInicio": "2023-10-14",
         "dataFim": "2023-10-14",
@@ -168,7 +168,7 @@
       },
       {
         "id": 21,
-        "titulo": "Palestra sobre Edição de Genes com CRISPR-Cas9",
+        "titulo": "",
         "descricao": "Explore as possibilidades da edição de genes com a tecnologia CRISPR-Cas9 nesta palestra informativa. Entenda como essa técnica está revolucionando a manipulação genética e suas aplicações na bioinformática.",
         "dataInicio": "2023-10-14",
         "dataFim": "2023-10-14",
