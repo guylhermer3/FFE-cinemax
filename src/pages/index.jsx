@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import Cabecalho from "@/components/Cabecalho";
 import Card from "@/components/Card";
 import ListCard from "@/components/ListCard";
@@ -11,7 +12,7 @@ export default function Home() {
       <ListCard />
       <Card />
       <Rodape />
-
+      <Button />
     </>
   )
 }

@@ -5,7 +5,7 @@
     border: 2px solid rgb(151, 151, 151);
     font-size: 12px;
     color: #323232;
-    width: 200px;
+    width: 230px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -17,12 +17,12 @@
 }
 
 .cardTitulo {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     padding-bottom: 10px;
     font-size: 18px;
 }
 
-.cardImage img {
+.cardImagem img {
     max-width: 100%;
     max-height: 50%;
 }

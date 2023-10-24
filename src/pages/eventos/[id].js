@@ -1,10 +1,13 @@
 import styles from './styles.module.css'
-import Button from '@/components/Button';
 import { useRouter } from "next/router";
 import Link from 'next/link';
 import Image from 'next/image';
 import axios from "axios";
 import { useEffect, useState } from "react";
+import Button from "@/components/Button";
+import Cabecalho from '@/components/Cabecalho';
+import Rodape from '@/components/Rodape';
+
 export default function EventosHome() {
 
     const [evento, setEvento] = useState({})
@@ -18,13 +21,13 @@ export default function EventosHome() {
                 .then(resultado => setEvento(resultado.data))
         }
     }, [])
-
-
+    
     return (
         <>
-        <Link href='/cards'>
+        <Cabecalho />
+        <Link href='/eventos'>
                 <Button className={styles.button}>
-               <span>Voltar</span>
+               <span>Cadastrar</span>
             </Button>
         </Link>    
 
@@ -38,11 +41,10 @@ export default function EventosHome() {
 
           <h1>{evento.titulo}</h1>
           <span>{evento.descricao}</span>
-          <p>Data Inicio: {evento.dataInicio} | Data Fim: {evento.dataFim}</p> 
+          <p>Data Inicio: {evento.dataInicio}  Data Fim: {evento.dataFim}</p> 
         </div>
-          
         </div>
-
+        <Rodape />
 
         </>
     )

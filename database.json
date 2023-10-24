@@ -3,15 +3,16 @@
     {
       "id": 1,
       "titulo": "O Estranho Mundo de Jack",
+      "imagem": "emjack.jpg",
       "descricao": "Participe deste workshop que explora a integração entre a biologia e a tecnologia da informação, focado em técnicas avançadas de bioinformática. Venha descobrir as inovações que estão moldando o futuro da pesquisa biológica.",
       "dataInicio": "2023-11-15",
       "dataFim": "2023-11-18",
-      "local": "Universidade Federal de São Paulo",
-      "imagem": "/emjack.jpg"
+      "local": "Universidade Federal de São Paulo"
     },
     {
       "id": 2,
-      "titulo": "Simpósio Internacional de Genômica",
+      "titulo": "Abracadabra",
+      "imagem": "abracadabra.jpg",
       "descricao": "O Simpósio Internacional de Genômica é um evento global que explora as últimas tendências e descobertas no campo da genômica. Participe para entender como a genômica está revolucionando a nossa compreensão da biologia e da saúde.",
       "dataInicio": "2023-12-05",
       "dataFim": "2023-12-08",
@@ -19,7 +20,8 @@
     },
     {
       "id": 3,
-      "titulo": "Curso Prático de Análise de Sequências",
+      "titulo": "A casa monstro",
+      "imagem": "acasamonstro.jpeg",
       "descricao": "Aprofunde seus conhecimentos práticos em análise de sequências biológicas neste curso intensivo. Aprenda as técnicas essenciais para extrair insights valiosos dos dados genômicos.",
       "dataInicio": "2023-10-30",
       "dataFim": "2023-11-03",
@@ -27,7 +29,8 @@
     },
     {
       "id": 4,
-      "titulo": "Congresso de Biotecnologia e Bioinformática",
+      "titulo": "Paranorman",
+      "imagem": "paranorman.jpeg",
       "descricao": "Participe do maior congresso dedicado à interseção da biotecnologia e bioinformática. Este evento reúne especialistas para compartilhar conhecimentos e colaborar na busca por avanços inovadores.",
       "dataInicio": "2023-09-25",
       "dataFim": "2023-09-28",
@@ -35,7 +38,8 @@
     },
     {
       "id": 5,
-      "titulo": "Seminário de Bioinformática Aplicada à Medicina",
+      "titulo": "Caroline",
+      "imagem": "caroline.jpeg",
       "descricao": "Este seminário foca na aplicação prática da bioinformática na medicina, destacando como a análise de dados genômicos está transformando o diagnóstico e tratamento de doenças. Não perca essa oportunidade de aprendizado.",
       "dataInicio": "2023-11-08",
       "dataFim": "2023-11-10",
@@ -43,7 +47,8 @@
     },
     {
       "id": 6,
-      "titulo": "Webinar sobre Ferramentas de Bioinformática",
+      "titulo": "A noiva Cadáver",
+      "imagem": "anoivacadaver.jpeg",
       "descricao": "Participe deste webinar interativo que explora as últimas ferramentas e softwares de bioinformática disponíveis. Descubra como essas ferramentas estão simplificando a análise de dados biológicos.",
       "dataInicio": "2023-10-18",
       "dataFim": "2023-10-18",
