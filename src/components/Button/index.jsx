@@ -1,9 +1,11 @@
+import React from 'react'
 import styles from './styles.module.css'
 
-export default function Button({children, ...props}){
-    return(
-        <>
-        <button style={{verticalAlign:'middle'}}className={styles.button} {...props}>{children}</button>
-        </>
-    )
+function Button({ link, text }) {
+    return (
+        <a href={link} className={styles.button}>
+            <span className={styles.buttonText}>{text}</span></a>
+    );
 }
+
+export default Button;

@@ -1,33 +1,25 @@
-.container{ 
-    align-items: center;
-    justify-content: space-evenly;
-    min-height: 100vh;   
-}
-
-.container img{
+.button {
+    position: relative;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
-    border: 5px solid #a9a9a9;
+    border: 2px solid #a3a2a2;
     font-size: 12px;
-
-    width: 500px;
-    height: 700px;
-}
-
-.subcontainer span{
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-}
-
-.button{
-    margin-left: 10px;
-    margin-top: 20px;
-    width: 100px;
-    height: 40px;
+    color: #ffffff;
+    width: 50px;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .button:hover span {
+    padding-right: 35px;
     cursor: pointer;
-    border: none;
-    background-color: transparent;
-    background-color: #b6b6b6;
-    border-radius: 10px;
-}
+    background-color: #323232;
+  }
+  .buttonText {
+    font-size: 16px;
+    position: absolute;
+  }
+  .button:hover .buttonText {
+    font-size: 20px;
+  }

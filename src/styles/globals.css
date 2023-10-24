@@ -1,10 +1,10 @@
-/* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}*/
-html, body, #__next {
+html,
+body,
+#__next {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-image: url('/halloween.png');
+  background-size: cover;
+  color: #ffffff;
 }

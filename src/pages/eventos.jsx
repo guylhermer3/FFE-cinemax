@@ -1,66 +1,68 @@
 import Cabecalho from "@/components/Cabecalho";
+import Container from "@/components/Container";
+import Form from "@/components/Form";
+import Input from "@/components/Input";
 import styles from '@/styles/eventos.module.css';
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+function inserirEvento(evento, imagem, limparFormulario, setMensagem) {
+  const formData = new FormData();
+  formData.append("imagem", imagem);
+
+  axios.post('http://localhost:3000/eventos', formData)
+    .then(resultado => {
+      console.log(resultado.data);
+      limparFormulario();
+      setMensagem("Cadastro realizado com sucesso.");
+    })
+    .catch(erro => {
+      console.log(erro);
+      setMensagem("Houve um erro em seu cadastro.");
+    });
+}
+
 export default function EventoPage() {
   const [evento, setEvento] = useState({
     titulo: "",
-    descricao: "",
-    dataInicio: "",
-    dataFim: "",
-    local: "",
+    sinopse: "",
+    data: "",
+    horario: "",
     imagem: ""
   });
 
   const [imagem, setImagem] = useState(null);
+  const [mensagem, setMensagem] = useState("");
 
-  function inserirEvento(e) {
-    e.preventDefault();
-    console.log(evento);
+  function limparFormulario() {
+    setEvento({
+      titulo: "",
+      sinopse: "",
+      data: "",
+      horario: "",
+      imagem: ""
+    });
+  }
 
-    function limparFormulario() {
-      setEvento({
-        titulo: "",
-        descricao: "",
-        dataInicio: "",
-        dataFim: "",
-        local: "",
-      });
-    }
-
-    const [mensagem, setMensagem] = useState("");
-    useEffect(() => {
+  useEffect(() => {
+    if (mensagem) {
       setTimeout(() => {
         setMensagem("");
       }, 2000);
-    }, [mensagem]);
-
-    const formData = new FormData();
-    formData.append("imagem", imagem);
-
-    axios.post('http://localhost:3000/eventos', formData)
-      .then(resultado => {
-        console.log(resultado.data);
-        limparFormulario();
-        setMensagem("Cadastro realizado com sucesso.");
-      })
-      .catch(erro => {
-        console.log(erro);
-        setMensagem("Houve um erro em seu cadastro.");
-      });
-  }
+    }
+  }, [mensagem]);
 
   return (
     <>
       <Cabecalho />
-
+<Container>
       <div className={styles.container}>
-        <form onSubmit={e => inserirEvento(e)} className={styles.subcontainer}>
+        <Form onSubmit={e => inserirEvento(evento, imagem, limparFormulario, setMensagem, e)}
+          className={styles.subcontainer}>
           <div>
             <label htmlFor='titulo'>Titulo:</label>
             <br />
-            <input
+            <Input
               id='titulo'
               type='text'
               name='titulo'
@@ -73,61 +75,46 @@ export default function EventoPage() {
           </div>
 
           <div>
-            <label htmlFor='descricao'>Descrição:</label>
+            <label htmlFor='sinopse'>Sinopse:</label>
             <br />
             <textarea
-              id='descricao'
+              id='sinopse'
               cols='20'
               rows='7'
-              value={evento.descricao}
+              value={evento.sinopse}
               onChange={e => setEvento({
                 ...evento,
-                descricao: e.target.value
+                sinopse: e.target.value
               })}
             />
           </div>
 
           <div>
-            <label htmlFor='dataInicio'>Data de Início:</label>
+            <label htmlFor='data'>Data estreia:</label>
             <br />
-            <input
-              id='dataInicio'
+            <Input
+              id='data'
               type='date'
-              name='dataInicio'
-              value={evento.dataInicio}
+              name='data'
+              value={evento.data}
               onChange={e => setEvento({
                 ...evento,
-                dataInicio: e.target.value
+                data: e.target.value
               })}
             />
           </div>
 
           <div>
-            <label htmlFor='dataFim'>Data de Fim:</label>
+            <label htmlFor='horario'>Horário:</label>
             <br />
-            <input
-              id='dataFim'
-              type='date'
-              name='dataFim'
-              value={evento.dataFim}
+            <Input
+              id='horario'
+              type='time'
+              name='horario'
+              value={evento.horario}
               onChange={e => setEvento({
                 ...evento,
-                dataFim: e.target.value
-              })}
-            />
-          </div>
-
-          <div>
-            <label htmlFor='local'>Local:</label>
-            <br />
-            <input
-              id='local'
-              type='text'
-              name='local'
-              value={evento.local}
-              onChange={e => setEvento({
-                ...evento,
-                local: e.target.value
+                horario: e.target.value
               })}
             />
           </div>
@@ -135,22 +122,25 @@ export default function EventoPage() {
           <div>
             <label htmlFor='imagem'>Imagem:</label>
             <br />
-            <input
+            <Input
               id='imagem'
               type='file'
               name='imagem'
               onChange={e => setImagem(e.target.files[0])}
             />
           </div>
+
           {imagem && (
-            <img src={URL.createObjectURL(imagem)} 
-            alt="Imagem selecionada" 
-            style={{ maxWidth: '100%' }} 
+            <img src={URL.createObjectURL(imagem)}
+              alt="Imagem selecionada"
+              style={{ maxWidth: '100%' }}
             />
           )}
           <button className={styles.button} type='submit'>Cadastrar</button>
-        </form>
+        </Form>
+
       </div>
+      </Container>
     </>
   );
 }
