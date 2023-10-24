@@ -5,6 +5,7 @@ import styles from "./styles.module.css";
 
 export default function ListCard() {
   const [eventos, setEventos] = useState([]);
+  const grupoNomes = ["Animação", "Para toda família", "Terror"];
 
   useEffect(() => {
     axios.get("http://localhost:3020/eventos").then((resultado) => setEventos(resultado.data));
@@ -27,7 +28,7 @@ export default function ListCard() {
     <div className={styles.listCard}>
       {dividir(eventos, 7).map((grupo, indice) => (
         <div key={indice}>
-          <h2>Grupo {indice + 1}</h2>
+          <h2>{grupoNomes[indice]}</h2> {}
           <div className={styles.cardGroup}>
             {grupo.map((e) => (
               <Card
