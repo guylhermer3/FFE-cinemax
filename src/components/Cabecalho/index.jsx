@@ -1,6 +1,6 @@
-import React from 'react'
-import Button from '../Button'
-import styles from './styles.module.css'
+import React from 'react';
+import Button from '../Button';
+import styles from './styles.module.css';
 
 export default function Cabecalho({ }) {
     return (

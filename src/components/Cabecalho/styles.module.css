@@ -6,6 +6,7 @@
   text-align: center;
   display: flex;
   align-items: center;
+  border-bottom: 2px solid red;
 }
 
 .a a {

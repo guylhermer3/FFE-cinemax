@@ -1,11 +1,11 @@
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
-export default function Input({ id, tipo, value, onChange }) {
+export default function Input({ id, type, value, onChange }) {
   return (
     <input
       className={styles.input}
       id={id}
-      type={tipo}
+      type={type}
       value={value}         
       onChange={onChange}    
     />

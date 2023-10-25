@@ -1,5 +1,5 @@
-import Link from "next/link"
-import styles from "./styles.module.css"
+import Link from "next/link";
+import styles from "./styles.module.css";
 
 export default function Card({ id, titulo, data, horario, imagem }) {
 

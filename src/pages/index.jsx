@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Cabecalho />
-      <h1>Mês do Halloween</h1>
+      <h1>Mês do Halloween!</h1>
       <ListCard />
       <Rodape />
     </>

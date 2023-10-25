@@ -6,17 +6,15 @@
       "imagem": "emjack.jpg",
       "descricao": "Participe deste workshop que explora a integração entre a biologia e a tecnologia da informação, focado em técnicas avançadas de bioinformática. Venha descobrir as inovações que estão moldando o futuro da pesquisa biológica.",
       "dataInicio": "2023-11-15",
-      "dataFim": "2023-11-18",
-      "local": "Universidade Federal de São Paulo"
+      "dataFim": "2023-11-18"
     },
     {
       "id": 2,
-      "titulo": "Abracadabra",
-      "imagem": "abracadabra.jpg",
-      "descricao": "O Simpósio Internacional de Genômica é um evento global que explora as últimas tendências e descobertas no campo da genômica. Participe para entender como a genômica está revolucionando a nossa compreensão da biologia e da saúde.",
+      "titulo": "Hotel Transilvânia",
+      "imagem": "hoteltransilvania.jpeg",
+      "descricao": "O Hotel Transilvânia é um resort cinco estrelas que serve de refúgio para que os monstros possam descansar do árduo trabalho de perseguir e assustar os humanos. O local é comandado pelo Conde Drácula, que resolve convidar os amigos para comemorar, ao longo de um fim de semana, o 118º aniversário de sua filha Mavis. Ele só não espera a chegada de um humano sem noção chamado Jonathan, que aparece no local justo quando o hotel está repleto de convidados e, ainda por cima, se apaixona por Mavis.",
       "dataInicio": "2023-12-05",
-      "dataFim": "2023-12-08",
-      "local": "Centro de Convenções de Brasília"
+      "dataFim": "2023-12-08"
     },
     {
       "id": 3,
@@ -57,122 +55,34 @@
     {
       "id": 7,
       "titulo": "",
-      "descricao": "A Conferência Nacional de Biologia Computacional é o encontro anual de profissionais e pesquisadores que compartilham suas descobertas e avanços no campo da biologia computacional. Junte-se a nós para uma troca de conhecimentos enriquecedora.",
+      "imagem": "avidaeumafesta.jpeg",
+      "descricao": "Apesar da proibição da música por gerações de sua família, o jovem Miguel sonha em se tornar um músico talentoso como seu ídolo Ernesto de la Cruz. Desesperado para provar seu talento, Miguel se encontra na deslumbrante e colorida Terra dos Mortos. Depois de conhecer um charmoso malandro chamado Héctor, os dois novos amigos embarcam em uma jornada extraordinária para desvendar a verdadeira história por trás da história da família de Miguel.",
       "dataInicio": "2023-11-20",
-      "dataFim": "2023-11-24",
-      "local": "Universidade de Brasília"
+      "dataFim": "2023-11-24"
     },
     {
       "id": 8,
-      "titulo": "",
-      "descricao": "Este curso introdutório oferece uma visão abrangente dos princípios básicos da bioinformática. Ideal para iniciantes que desejam entender o papel da tecnologia da informação na biologia moderna.",
+      "titulo": "Convenção das Bruxas",
+      "imagem": "convencaodasbruxas.jpeg",
+      "descricao": "O remake de Convenção das Bruxas, clássico de fantasia dos anos 1990, acompanha um garoto de sete anos que se depara com uma conferência de bruxas em um hotel. Lá, ele acaba descobrindo que um grupo de bruxas está fazendo uma convenção, pretendendo transformar todas as crianças do mundo em ratos.",
       "dataInicio": "2023-10-12",
-      "dataFim": "2023-10-14",
-      "local": "Instituto Federal de Educação, Ciência e Tecnologia de Minas Gerais"
+      "dataFim": "2023-10-14"
     },
     {
-      "id": 9,
-      "titulo": "",
-      "descricao": "Participe deste encontro que reúne pesquisadores para discutir as últimas pesquisas e avanços em genômica comparativa. Explore as semelhanças e diferenças genéticas entre espécies.",
-      "dataInicio": "2023-12-10",
-      "dataFim": "2023-12-12",
-      "local": "Universidade Federal de Santa Catarina"
+      "id": 2,
+      "titulo": "Abracadabra",
+      "imagem": "abracadabra.jpg",
+      "descricao": "Após se mudar para Salem, Massachusetts, o adolescente Max Dennison explora uma casa abandonada com sua irmã Dani e sua nova amiga Allison. Depois de não acreditar em uma história que Allison conta, Max acidentalmente liberta um grupo de bruxas más que morava na casa. Agora, com a ajuda de um gato mágico, as crianças devem roubar o livro de magias das bruxas para impedi-las de se tornarem imortais.",
+      "dataInicio": "2023-12-05",
+      "dataFim": "2023-12-08"
     },
-    {
-      "id": 10,
-      "titulo": "",
-      "descricao": "Descubra como a bioinformática está sendo aplicada para otimizar a agricultura e a produção de alimentos. A palestra abordará as inovações tecnológicas que estão impulsionando a sustentabilidade no setor agrícola.",
-      "dataInicio": "2023-10-05",
-      "dataFim": "2023-10-05",
-      "local": "Embrapa - Brasília"
-    },
-    {
-      "id": 11,
-      "titulo": "",
-      "descricao": "Este fórum é um espaço para discutir as inovações mais recentes na interseção da biologia e da computação. Explore as tendências que estão moldando o futuro da pesquisa biológica.",
-      "dataInicio": "2023-11-28",
-      "dataFim": "2023-11-30",
-      "local": "Universidade Federal de Viçosa"
-    },
-    {
-      "id": 12,
-      "titulo": "",
-      "descricao": "Participe deste curso avançado que se concentra na análise de metagenomas, explorando a diversidade e a funcionalidade das comunidades microbianas. Aprofunde seus conhecimentos em bioinformática aplicada.",
-      "dataInicio": "2023-10-19",
-      "dataFim": "2023-10-22",
-      "local": "IFRO Campus Ariqumes"
-    },
-    {
-        "id": 13,
-        "titulo": "",
-        "descricao": "Participe desta conferência global que explora o impacto do big data na análise genômica. Descubra as estratégias para lidar com volumes massivos de dados biológicos.",
-        "dataInicio": "2023-12-18",
-        "dataFim": "2023-12-21",
-        "local": "Universidade de São Paulo"
-      },
-      {
-        "id": 14,
-        "titulo": "",
-        "descricao": "Aprimore suas habilidades em alinhamento de sequências neste workshop prático. Aprenda a interpretar e analisar alinhamentos para obter insights valiosos sobre a evolução e a função das sequências biológicas.",
-        "dataInicio": "2023-11-05",
-        "dataFim": "2023-11-07",
-        "local": "Instituto Butantan - São Paulo"
-      },
-      {
-        "id": 15,
-        "titulo": "",
-        "descricao": "Participe deste simpósio que se concentra na análise e modelagem de redes biológicas. Explore como os avanços em bioinformática estão ajudando a compreender a complexidade dos sistemas biológicos.",
-        "dataInicio": "2023-10-08",
-        "dataFim": "2023-10-10",
-        "local": "Universidade Federal do Rio Grande do Sul"
-      },
-      {
-        "id": 16,
-        "titulo": "",
-        "descricao": "Este curso oferece uma visão abrangente sobre a integração de dados genômicos de diferentes fontes. Aprenda a combinar informações genômicas para obter uma compreensão holística dos organismos.",
-        "dataInicio": "2023-09-20",
-        "dataFim": "2023-09-22",
-        "local": "Instituto Nacional de Pesquisas da Amazônia - Manaus"
-      },
-      {
-        "id": 17,
-        "titulo": "",
-        "descricao": "Participe deste hackathon dedicado à resolução de desafios em bioinformática. Colabore com uma equipe e aplique suas habilidades de programação e análise de dados para criar soluções inovadoras.",
-        "dataInicio": "2023-11-25",
-        "dataFim": "2023-11-27",
-        "local": "Universidade de Campinas"
-      },
-      {
-        "id": 18,
-        "titulo": "",
-        "descricao": "Explore as possibilidades da edição de genes com a tecnologia CRISPR-Cas9 nesta palestra informativa. Entenda como essa técnica está revolucionando a manipulação genética e suas aplicações na bioinformática.",
-        "dataInicio": "2023-10-14",
-        "dataFim": "2023-10-14",
-        "local": "Instituto de Pesquisas Biomédicas - Rio de Janeiro"
-      },
-      {
-        "id": 19,
-        "titulo": "",
-        "descricao": "Explore as possibilidades da edição de genes com a tecnologia CRISPR-Cas9 nesta palestra informativa. Entenda como essa técnica está revolucionando a manipulação genética e suas aplicações na bioinformática.",
-        "dataInicio": "2023-10-14",
-        "dataFim": "2023-10-14",
-        "local": "Instituto de Pesquisas Biomédicas - Rio de Janeiro"
-      },
-      {
-        "id": 20,
-        "titulo": "",
-        "descricao": "Explore as possibilidades da edição de genes com a tecnologia CRISPR-Cas9 nesta palestra informativa. Entenda como essa técnica está revolucionando a manipulação genética e suas aplicações na bioinformática.",
-        "dataInicio": "2023-10-14",
-        "dataFim": "2023-10-14",
-        "local": "Instituto de Pesquisas Biomédicas - Rio de Janeiro"
-      },
       {
         "id": 21,
-        "titulo": "",
-        "descricao": "Explore as possibilidades da edição de genes com a tecnologia CRISPR-Cas9 nesta palestra informativa. Entenda como essa técnica está revolucionando a manipulação genética e suas aplicações na bioinformática.",
+        "titulo": "C.D. Bruxas",
+        "imagem": "hallo.jpeg",
+        "descricao": "Histórias de horror interligadas mostram que algumas tradições não devem ser esquecidas. Este é o caso de residentes de uma pequena cidade, que enfrentam fantasmas e demônios no Dia das Bruxas. Os contos de terror revelam as consequências de não levar a sério certas lendas, como a do Jack da lanterna.",
         "dataInicio": "2023-10-14",
-        "dataFim": "2023-10-14",
-        "local": "Instituto de Pesquisas Biomédicas - Rio de Janeiro"
+        "dataFim": "2023-10-14"
       }
     ]
 }

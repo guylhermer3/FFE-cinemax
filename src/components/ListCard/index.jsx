@@ -1,7 +1,7 @@
-import axios from "axios"
-import { useEffect, useState } from "react"
-import Card from "../Card"
-import styles from "./styles.module.css"
+import axios from "axios";
+import { useEffect, useState } from "react";
+import Card from "../Card";
+import styles from "./styles.module.css";
 
 export default function ListCard() {
   const [eventos, setEventos] = useState([]);

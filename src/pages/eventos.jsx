@@ -10,7 +10,15 @@ function inserirEvento(evento, imagem, limparFormulario, setMensagem) {
   const formData = new FormData();
   formData.append("imagem", imagem);
 
-  axios.post('http://localhost:3000/eventos', formData)
+  axios.post('http://localhost:3000/eventos', {
+    imagem:evento.imagem.name,
+    titulo:evento.titulo ,
+    sinopse:evento.sinopse,
+    data:evento.data,
+    horario:evento.horario
+
+
+  })
     .then(resultado => {
       console.log(resultado.data);
       limparFormulario();

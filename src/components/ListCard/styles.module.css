@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   background-color: #1a1919;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
+  align-items: center;
 }
 
 .cardGroup {
