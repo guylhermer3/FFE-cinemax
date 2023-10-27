@@ -28,7 +28,7 @@ export default function ListCard() {
     <div className={styles.listCard}>
       {dividir(eventos, 7).map((grupo, indice) => (
         <div key={indice}>
-          <h2>{grupoNomes[indice]}</h2> {}
+          <h2 className={styles.grupoTitulo}>{grupoNomes[indice]}</h2> {}
           <div className={styles.cardGroup}>
             {grupo.map((e) => (
               <Card

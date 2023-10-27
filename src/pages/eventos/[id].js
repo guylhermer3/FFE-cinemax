@@ -4,8 +4,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import axios from "axios"
 import { useEffect, useState } from "react"
-import Button from "@/components/Button"
 import Cabecalho from '@/components/Cabecalho'
+import Container2 from '@/components/Container2'
 import Rodape from '@/components/Rodape'
 
 export default function EventosHome() {
@@ -24,12 +24,9 @@ export default function EventosHome() {
     return (
         <>
             <Cabecalho />
+            <Container2>
             <Link href='/eventos'>
-                <Button className={styles.button}>
-                    <span>Cadastrar</span>
-                </Button>
             </Link>
-
             <div className={styles.container}>
                 <Image
                     src={evento.imagem}
@@ -37,14 +34,14 @@ export default function EventosHome() {
                     height={500}
                 />
                 <div className={styles.subcontainer}>
-
                     <h1>{evento.titulo}</h1>
                     <span>{evento.descricao}</span>
                     <p>Data Inicio: {evento.dataInicio}  Data Fim: {evento.dataFim}</p>
                 </div>
             </div>
+           
+            </Container2>
             <Rodape />
-
         </>
     )
 }

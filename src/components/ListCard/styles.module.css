@@ -12,6 +12,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .listCard>div {
@@ -25,4 +28,11 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+}
+
+.grupoTitulo {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 30px;
 }
